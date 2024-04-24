@@ -1,15 +1,15 @@
 import './App.css';
-import Page1 from './Pages/Page1.js'
-import Loginstaff from './Pages/Loginstaff.js';
-import Loginstudent from './Pages/Loginstudent.js';
-import Attendancepage from './Pages/Attendancepage.js';
-import Staffattendance from './Pages/Staffattendance.js';
+import R1 from './renting/R1';
+import R2 from './renting/R2';
+import R3 from './renting/R3';
 
 
 function App() {
   return (
     <div>
-    
+      <R1/>
+      {/* <R2/> */}
+      {/* <R3/> */}
     </div>
   );
 }
