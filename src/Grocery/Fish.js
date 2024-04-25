@@ -1,10 +1,5 @@
 import React from "react";
-import duck from '/Users/dhanushas/Desktop/APP/app-project/src/Groceryimg/fish/duck.webp'
-import fish from '/Users/dhanushas/Desktop/APP/app-project/src/Groceryimg/fish/fish.jpeg'
-import chicken from '/Users/dhanushas/Desktop/APP/app-project/src/Groceryimg/fish/full-chicken.jpg'
-import goat from '/Users/dhanushas/Desktop/APP/app-project/src/Groceryimg/fish/goat.jpeg'
-import pork from '/Users/dhanushas/Desktop/APP/app-project/src/Groceryimg/fish/pork-meat.jpg'
-import turkey from '/Users/dhanushas/Desktop/APP/app-project/src/Groceryimg/fish/turkey.jpeg'
+
 
 
 const products = [
@@ -13,7 +8,7 @@ const products = [
       name: 'Duck',
       href: '#',
       price: '₹10',
-      imageSrc:duck,
+      imageSrc:'/Groceryimg/fish/duck.webp',
       imageAlt: 'Duck',
     },
     {
@@ -21,7 +16,7 @@ const products = [
       name: 'Fish',
       href: '#',
       price: '₹15',
-      imageSrc:fish,
+      imageSrc:'/Groceryimg/fish/fish.jpeg',
       imageAlt: 'Fish',
     },
     {
@@ -29,7 +24,7 @@ const products = [
       name: 'Chicken',
       href: '#',
       price: '₹20',
-      imageSrc:chicken,
+      imageSrc:'/Groceryimg/fish/full-chicken.jpg',
       imageAlt: 'Chicken',
     },
     {
@@ -37,7 +32,7 @@ const products = [
       name: 'Goat',
       href: '#',
       price: '₹18',
-      imageSrc:goat,
+      imageSrc:'/Groceryimg/fish/goat.jpeg',
       imageAlt: 'Goat',
     },
     {
@@ -45,7 +40,7 @@ const products = [
         name: 'Pork',
         href: '#',
         price: '₹18',
-        imageSrc:pork,
+        imageSrc:'/Groceryimg/fish/pork-meat.jpg',
         imageAlt: 'Pork',
       },
       {
@@ -53,7 +48,7 @@ const products = [
         name: 'Turkey',
         href: '#',
         price: '₹25',
-        imageSrc:turkey,
+        imageSrc:'/Groceryimg/fish/turkey.jpeg',
         imageAlt: 'Turkey',
       },
 

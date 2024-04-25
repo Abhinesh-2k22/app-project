@@ -1,17 +1,12 @@
 import React from "react";
-import milk from '/Users/dhanushas/Desktop/APP/app-project/src/Groceryimg/Dairy/milk.jpeg'
-import cheese from '/Users/dhanushas/Desktop/APP/app-project/src/Groceryimg/Dairy/cheese.jpeg'
-import butter from '/Users/dhanushas/Desktop/APP/app-project/src/Groceryimg/Dairy/butter.avif'
-import bread from '/Users/dhanushas/Desktop/APP/app-project/src/Groceryimg/Dairy/bread.jpeg'
-import paneer from '/Users/dhanushas/Desktop/APP/app-project/src/Groceryimg/Dairy/paneer.jpeg'
-import freshc from '/Users/dhanushas/Desktop/APP/app-project/src/Groceryimg/Dairy/freshcream.jpeg'
+
 const products = [
     {
       id: 1,
       name: 'Milk',
       href: '#',
       price: '₹10',
-      imageSrc:milk,
+      imageSrc:'/Groceryimg/Dairy/milk.jpeg',
       imageAlt: 'Milk',
     },
     {
@@ -19,7 +14,7 @@ const products = [
       name: 'Cheese',
       href: '#',
       price: '₹15',
-      imageSrc:cheese,
+      imageSrc:'/Groceryimg/Dairy/cheese.jpeg',
       imageAlt: 'cheese',
     },
     {
@@ -27,7 +22,7 @@ const products = [
       name: 'Butter',
       href: '#',
       price: '₹20',
-      imageSrc:butter,
+      imageSrc:'/Groceryimg/Dairy/butter.avif',
       imageAlt: 'butter',
     },
     {
@@ -35,7 +30,7 @@ const products = [
       name: 'Bread',
       href: '#',
       price: '₹18',
-      imageSrc:bread,
+      imageSrc:'/Groceryimg/Dairy/bread.jpeg',
       imageAlt: 'Bread',
     },
     {
@@ -43,7 +38,7 @@ const products = [
         name: 'Paneer',
         href: '#',
         price: '₹18',
-        imageSrc:paneer,
+        imageSrc:'/Groceryimg/Dairy/paneer.jpeg',
         imageAlt: 'Paneer',
       },
       {
@@ -51,7 +46,7 @@ const products = [
         name: 'Fresh cream',
         href: '#',
         price: '₹25',
-        imageSrc:freshc,
+        imageSrc:'/Groceryimg/Dairy/freshcream.jpeg',
         imageAlt: 'Freshcream',
       },
 

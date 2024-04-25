@@ -1,18 +1,13 @@
 import React from "react";
 
-import up from '/Users/dhanushas/Desktop/APP/app-project/src/Groceryimg/Beverages/7up.jpeg'
-import coke from '/Users/dhanushas/Desktop/APP/app-project/src/Groceryimg/Beverages/coke.webp'
-import fanta from '/Users/dhanushas/Desktop/APP/app-project/src/Groceryimg/Beverages/fanta.webp'
-import pepsi from '/Users/dhanushas/Desktop/APP/app-project/src/Groceryimg/Beverages/pepsi.jpeg'
-import slice from '/Users/dhanushas/Desktop/APP/app-project/src/Groceryimg/Beverages/slice.jpeg'
-import sprite from '/Users/dhanushas/Desktop/APP/app-project/src/Groceryimg/Beverages/sprite.webp'
+
 const products = [
     {
       id: 1,
       name: '7Up',
       href: '#',
       price: '₹10',
-      imageSrc:up,
+      imageSrc:'/Groceryimg/Beverages/7up.jpeg',
       imageAlt: '7Up',
     },
     {
@@ -20,7 +15,7 @@ const products = [
       name: 'Coke',
       href: '#',
       price: '₹15',
-      imageSrc:coke,
+      imageSrc:'/Groceryimg/Beverages/coke.webp',
       imageAlt: 'Coke',
     },
     {
@@ -28,7 +23,7 @@ const products = [
       name: 'Fanta',
       href: '#',
       price: '₹20',
-      imageSrc:fanta,
+      imageSrc:'/Groceryimg/Beverages/fanta.webp',
       imageAlt: 'Fanta',
     },
     {
@@ -36,7 +31,7 @@ const products = [
       name: 'Pepsi',
       href: '#',
       price: '₹18',
-      imageSrc:pepsi,
+      imageSrc:'/Groceryimg/Beverages/pepsi.jpeg',
       imageAlt: 'Pepsi',
     },
     {
@@ -44,7 +39,7 @@ const products = [
         name: 'Slice',
         href: '#',
         price: '₹18',
-        imageSrc:slice,
+        imageSrc:'/Groceryimg/Beverages/slice.jpeg',
         imageAlt: 'Slice',
       },
       {
@@ -52,7 +47,7 @@ const products = [
         name: 'Sprite',
         href: '#',
         price: '₹25',
-        imageSrc:sprite,
+        imageSrc:'/Groceryimg/Beverages/sprite.webp',
         imageAlt: 'Sprite',
       },
 

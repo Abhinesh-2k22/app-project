@@ -1,17 +1,12 @@
 import React from "react";
-import catfood from '/Users/dhanushas/Desktop/APP/app-project/src/Groceryimg/petproducts/cat-food.webp'
-import comb from '/Users/dhanushas/Desktop/APP/app-project/src/Groceryimg/petproducts/comb.jpeg'
-import dogshamp from '/Users/dhanushas/Desktop/APP/app-project/src/Groceryimg/petproducts/dog-shampoo.jpeg'
-import dogfood from '/Users/dhanushas/Desktop/APP/app-project/src/Groceryimg/petproducts/dogfood.jpeg'
-import litersand from '/Users/dhanushas/Desktop/APP/app-project/src/Groceryimg/petproducts/litter-sand.webp'
-import literbox from '/Users/dhanushas/Desktop/APP/app-project/src/Groceryimg/petproducts/littter-box.jpeg'
+
 const products = [
     {
       id: 1,
       name: 'Catfood',
       href: '#',
       price: '₹10',
-      imageSrc:catfood,
+      imageSrc:'/Groceryimg/petproducts/cat-food.webp',
       imageAlt: 'Catfood',
     },
     {
@@ -19,7 +14,7 @@ const products = [
       name: 'Comb',
       href: '#',
       price: '₹15',
-      imageSrc:comb,
+      imageSrc:'/Groceryimg/petproducts/comb.jpeg',
       imageAlt: 'Comb',
     },
     {
@@ -27,7 +22,7 @@ const products = [
       name: 'Dogshampoo',
       href: '#',
       price: '₹20',
-      imageSrc:dogshamp,
+      imageSrc:'/Groceryimg/petproducts/dog-shampoo.jpeg',
       imageAlt: 'Dogshampoo',
     },
     {
@@ -35,7 +30,7 @@ const products = [
       name: 'Dogfood',
       href: '#',
       price: '₹18',
-      imageSrc:dogfood,
+      imageSrc:'/Groceryimg/petproducts/dogfood.jpeg',
       imageAlt: 'Dogfood',
     },
     {
@@ -43,7 +38,7 @@ const products = [
         name: 'Litersand',
         href: '#',
         price: '₹18',
-        imageSrc:litersand,
+        imageSrc:'/Groceryimg/petproducts/litter-sand.webp',
         imageAlt: 'Litersand',
       },
       {
@@ -51,7 +46,7 @@ const products = [
         name: 'Literbox',
         href: '#',
         price: '₹25',
-        imageSrc:literbox,
+        imageSrc:'/Groceryimg/petproducts/littter-box.jpeg',
         imageAlt: 'Literbox',
       },
 

@@ -1,16 +1,11 @@
 import React from "react";
-import done from '/Users/dhanushas/Desktop/APP/app-project/src/Groceryimg/fruits/apple .jpeg'
-import banana from '/Users/dhanushas/Desktop/APP/app-project/src/Groceryimg/fruits/banana.jpeg'
-import mango from '/Users/dhanushas/Desktop/APP/app-project/src/Groceryimg/fruits/mango.webp'
-import carrot from '/Users/dhanushas/Desktop/APP/app-project/src/Groceryimg/fruits/carrot.webp'
-import onion from '/Users/dhanushas/Desktop/APP/app-project/src/Groceryimg/fruits/onion.jpeg'
-import tomato from '/Users/dhanushas/Desktop/APP/app-project/src/Groceryimg/fruits/tomato.jpeg'
+
 const products = [
     {
       id: 1,
       name: 'APPLE',
       href: '#',
-      imageSrc:done,
+      imageSrc:'/Groceryimg/fruits/apple .jpeg',
       imageAlt: "Apple",
       price: '₹5',
       
@@ -19,7 +14,7 @@ const products = [
       id: 2,
       name: 'Banana',
       href: '#',
-      imageSrc:banana,
+      imageSrc:'/Groceryimg/fruits/banana.jpeg',
       imageAlt: "Banana",
       price: '₹3',
 
@@ -28,7 +23,7 @@ const products = [
         id: 3,
         name: 'Mango',
         href: '#',
-        imageSrc:mango,
+        imageSrc:'/Groceryimg/fruits/mango.webp',
         imageAlt: "Mango",
         price: '₹6',
   
@@ -37,7 +32,7 @@ const products = [
         id: 4,
         name: 'Carrot',
         href: '#',
-        imageSrc:carrot,
+        imageSrc:'/Groceryimg/fruits/carrot.webp',
         imageAlt: "carrot",
         price: '₹4',
 
@@ -46,7 +41,7 @@ const products = [
         id: 5,
         name: 'Onion',
         href: '#',
-        imageSrc:onion,
+        imageSrc:'/Groceryimg/fruits/onion.jpeg',
         imageAlt: "Onion",
         price: '₹4',
     },
@@ -54,7 +49,7 @@ const products = [
         id: 6,
         name: 'Tomato',
         href: '#',
-        imageSrc:tomato,
+        imageSrc:'/Groceryimg/fruits/tomato.jpeg',
         imageAlt: "Tomato",
         price: '₹2',
 

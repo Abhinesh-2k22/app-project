@@ -1,17 +1,12 @@
 import React from "react";
-import castor from '/Users/dhanushas/Desktop/APP/app-project/src/Groceryimg/oils/Castor-oil.jpeg'
-import coconut from '/Users/dhanushas/Desktop/APP/app-project/src/Groceryimg/oils/coconutoil.webp'
-import groundnut from '/Users/dhanushas/Desktop/APP/app-project/src/Groceryimg/oils/groundnut-oil.jpg'
-import olive from '/Users/dhanushas/Desktop/APP/app-project/src/Groceryimg/oils/oliveoil.webp'
-import sesame from '/Users/dhanushas/Desktop/APP/app-project/src/Groceryimg/oils/sesame-oil-.jpeg'
-import sunf from '/Users/dhanushas/Desktop/APP/app-project/src/Groceryimg/oils/sunflower oil.webp'
+
 const products = [
     {
       id: 1,
       name: 'Sunflower oil',
       href: '#',
       price: '₹10',
-      imageSrc:sunf,
+      imageSrc:'/Groceryimg/oils/sunflower oil.webp',
       imageAlt: 'sunflower oil',
     },
     {
@@ -19,7 +14,7 @@ const products = [
       name: 'Coconut oil',
       href: '#',
       price: '₹15',
-      imageSrc:coconut,
+      imageSrc:'/Groceryimg/oils/coconutoil.webp',
       imageAlt: 'Coconut oil',
     },
     {
@@ -27,7 +22,7 @@ const products = [
       name: 'Groundnut oil',
       href: '#',
       price: '₹20',
-      imageSrc:groundnut,
+      imageSrc:'/Groceryimg/oils/groundnut-oil.jpg',
       imageAlt: 'Groundnut oil',
     },
     {
@@ -35,7 +30,7 @@ const products = [
       name: 'Olive oil',
       href: '#',
       price: '₹18',
-      imageSrc:olive,
+      imageSrc:'/Groceryimg/oils/oliveoil.webp',
       imageAlt: 'Olive oil',
     },
     {
@@ -43,7 +38,7 @@ const products = [
         name: 'Sesame oil',
         href: '#',
         price: '₹18',
-        imageSrc:sesame,
+        imageSrc:'/Groceryimg/oils/sesame-oil-.jpeg',
         imageAlt: 'Sesame oil',
       },
       {
@@ -51,7 +46,7 @@ const products = [
         name: 'Castor oil',
         href: '#',
         price: '₹25',
-        imageSrc:castor,
+        imageSrc:'/Groceryimg/oils/Castor-oil.jpeg',
         imageAlt: 'Castor oil',
       },
 
