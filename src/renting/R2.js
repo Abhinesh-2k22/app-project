@@ -1,10 +1,12 @@
 import React from 'react'
 
+
+
 const products = [
     {
       id: 1,
       name: 'Studio Rentals',
-      href: '#',
+      href: '/renting-R3',
       imageSrc: '/resource-renting/pexels-pixabay-164938.jpg',
       imageAlt: "Front of men's Basic Tee in black.",
       price: '$35',
@@ -13,7 +15,7 @@ const products = [
     {
         id: 2,
         name: 'One Bed Rentals',
-        href: '#',
+        href: '/renting-R3',
         imageSrc: '/resource-renting/pexels-solliefoto-298842.jpg',
         imageAlt: "Front of men's Basic Tee in black.",
         price: '$35',
@@ -21,7 +23,7 @@ const products = [
       }, {
         id: 3,
         name: 'Two Bed Rentals',
-        href: '#',
+        href: '/renting-R3',
         imageSrc: '/resource-renting/pexels-justyzvidz-9952001.jpg',
         imageAlt: "Front of men's Basic Tee in black.",
         price: '$35',
@@ -29,7 +31,7 @@ const products = [
       }, {
         id: 4,
         name: 'Utilities Included',
-        href: '#',
+        href: '/renting-R3',
         imageSrc: '/resource-renting/pexels-emrecan-2079246.jpg',
         imageAlt: "Front of men's Basic Tee in black.",
         price: '$35',
@@ -38,7 +40,7 @@ const products = [
       {
         id: 5,
         name: 'Pet Friendly Rentals',
-        href: '#',
+        href: '/renting-R3',
         imageSrc: '/resource-renting/pexels-lina-1741205.jpg',
         imageAlt: "Front of men's Basic Tee in black.",
         price: '$35',
@@ -47,7 +49,7 @@ const products = [
       {
         id: 6,
         name: 'Cheap Rentals',
-        href: '#',
+        href: '/renting-R3',
         imageSrc: '/resource-renting/pexels-kelly-1179532-3127152.jpg',
         imageAlt: "Front of men's Basic Tee in black.",
         price: '$35',
@@ -56,7 +58,7 @@ const products = [
       {
         id: 7,
         name: 'Luxury Rentals',
-        href: '#',
+        href: '/renting-R3',
         imageSrc: '/resource-renting/pexels-dropshado-2251247.jpg',
         imageAlt: "Front of men's Basic Tee in black.",
         price: '$35',
@@ -65,7 +67,7 @@ const products = [
       {
         id: 8,
         name: 'Affordable Rentals',
-        href: '#',
+        href: '/renting-R3',
         imageSrc: '/resource-renting/pexels-javon-swaby-197616-3314325.jpg',
         imageAlt: "Front of men's Basic Tee in black.",
         price: '$35',
@@ -74,6 +76,7 @@ const products = [
   ]
 
 function R2() {
+
   return (
     <div className="bg-white">
     <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
@@ -92,7 +95,7 @@ function R2() {
             <div className="mt-4 flex justify-between">
               <div>
                 <h3 className="text-2xl  text-gray-700">
-                  <a href={product.href}>
+                  <a  href={product.href}>
                     <span aria-hidden="true" className="absolute inset-0" />
                     {product.name}
                   </a>

@@ -126,7 +126,7 @@ function Service() {
                 <p className="mt-1 text-sm text-gray-500"><span className='text-black-500 font-bold'>Age - </span><span className='font-bold'>{product.a}</span></p>
                 <p className="mt-1 text-sm text-gray-500"><span className='text-black-500 font-bold'>Contact - </span><span className='font-bold'>{product.p}</span></p>
 
-              <p className="mt-1 flex space-x-2 bg-green-500  rounded-2xl mr-20 min-w-16 max-w-16 "><FaStar color='yellow' className='pt-1 shadow-2xl' /><div>{product.rating} </div></p>  
+              <p className="mt-1 flex space-x-2 bg-green-500  text-black font-semibold rounded-2xl mr-20 min-w-16 max-w-16 "><FaStar color='yellow' className='pt-1 shadow-2xl' /><div >{product.rating} </div></p>  
               </div>
               
             </div>

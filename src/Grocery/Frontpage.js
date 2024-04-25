@@ -14,12 +14,12 @@ function Frontpage(){
                         
                         </div>
                         <div class="grid grid-rows-2 grid-cols-3 gap-5   ml-12 my-5 ">
-                        <div className='rounded-full w-96 h-96'><img className="rounded-2xl"src='/Groceryimg/frontpage/fruitsandveg.jpeg'/><p className='text-center py-5 text-lg'>Fruits and vegetables</p></div>
-                        <div className=' rounded-full w-96 h-96'><img  className="rounded-2xl"src='/Groceryimg/frontpage/beverages.jpeg'/><p className='text-center py-5 text-lg'>Beverages</p></div>
-                        <div className='rounded-full w-96 h-96'><img className="rounded-2xl"src='/Groceryimg/frontpage/dairy.jpeg'/><p className='text-center py-5 text-lg'>Dairy Products</p></div>
-                        <div className=' rounded-full w-96 h-96'><img className="rounded-2xl"src='/Groceryimg/frontpage/fish.jpeg'/><p className='text-center py-5 text-lg'>Fish</p></div>
-                        <div className=' rounded-full w-96 h-96'><img className="rounded-2xl"src='/Groceryimg/frontpage/oils.jpeg'/><p className='text-center py-5 text-lg'>Oils</p></div>
-                        <div className='rounded-full w-96 h-96'><img className="rounded-2xl"src='/Groceryimg/frontpage/petproducts.jpeg'/><p className='text-center py-5 text-lg'> Pet Products</p></div>
+                        <div className='rounded-full w-96 h-96'><img className="rounded-2xl"src='/Groceryimg/frontpage/fruitsandveg.jpeg'/><div className='text-center py-5 text-lg'><a href='/grocery-Fruits' >Fruits and vegetables</a></div></div>
+                        <div className=' rounded-full w-96 h-96'><img  className="rounded-2xl"src='/Groceryimg/frontpage/beverages.jpeg'/><div  className='text-center py-5 text-lg'><a href='/grocery-Beverage'>Beverages</a></div></div>
+                        <div className='rounded-full w-96 h-96'><img className="rounded-2xl"src='/Groceryimg/frontpage/dairy.jpeg'/><div className='text-center py-5 text-lg'><a href='/grocery-Diary' >Dairy Products</a></div></div>
+                        <div className=' rounded-full w-96 h-96'><img className="rounded-2xl"src='/Groceryimg/frontpage/fish.jpeg'/><div className='text-center py-5 text-lg'><a href='/grocery-Fish' >Fish</a></div></div>
+                        <div className=' rounded-full w-96 h-96'><img className="rounded-2xl"src='/Groceryimg/frontpage/oils.jpeg'/><div  className='text-center py-5 text-lg'><a href='/grocery-Oils'>Oils</a></div></div>
+                        <div className='rounded-full w-96 h-96'><img className="rounded-2xl"src='/Groceryimg/frontpage/petproducts.jpeg'/><div  className='text-center py-5 text-lg'><a href='/grocery-Pets'> Pet Products</a></div></div>
                        
                        
                     </div>

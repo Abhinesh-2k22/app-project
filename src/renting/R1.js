@@ -1,6 +1,8 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 function R1() {
+  const navigate=useNavigate();
   return (
     <div className='bg-white'>
         <div className="flex">
@@ -13,7 +15,7 @@ function R1() {
               Calculate your budget,<br/> brush up on rental living resources,
                and get organized for your move all in<br/> one place!
             </p>
-            <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg text-center">Search Home</button>
+            <button onClick={()=>{navigate("/renting-R2")}}class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg text-center">Search Home</button>
           </div> 
           <div className=" mt-10 mr-10 w-8/12 h-0.5 pl-5"data-aos="zoom-in-up">
             <img  className="rounded-2xl" src="/resource-renting/pexels-wdnet-101808.jpg"/>

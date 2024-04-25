@@ -1,6 +1,8 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 function Allinone() {
+  const navigate=useNavigate();
     return (
         <div className="relative overflow-hidden bg-white">
           <div className="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
@@ -85,13 +87,13 @@ function Allinone() {
                       <input type="text" placeholder="Type locality" class="input input-bordered input-md w-60 max-w-xs" />
                   </div>
                 <div className="py-10">
-                  <div className='flex space-x-60'>
-                    <button class="btn btn-lg btn-primary">Rent a house</button>
-                    <button class="btn btn-lg btn-primary">Buy Grocery</button>
+                  <div className='flex space-x-48'>
+                    <button onClick={()=>{navigate("/renting-home")}}class="btn btn-lg btn-primary">Rent a house</button>
+                    <button onClick={()=>{navigate("/grocery-home")}}class="btn btn-lg btn-primary">Buy Grocery</button>
                   </div>
-                  <div className="flex space-x-60 pt-10">
-                    <button class="btn btn-lg btn-primary">Get a Haircut</button>
-                    <button class="btn btn-lg btn-primary min-w-26">Contact<br/>  Serviceman</button>
+                  <div className="flex space-x-48 pt-10">
+                    <button onClick={()=>{navigate("/Saloon")}}class="btn btn-lg btn-primary">Get a Haircut</button>
+                    <button onClick={()=>{navigate("/Service")}}class="btn btn-lg btn-primary min-w-26">Contact<br/>  Serviceman</button>
                   </div>
                 </div>
                 </div>

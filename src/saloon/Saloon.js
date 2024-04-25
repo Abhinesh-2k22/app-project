@@ -5,7 +5,7 @@ const products = [
     {
       id: 1,
       name: 'Fairy Professional salon',
-      href: '#',
+      href: '/Saloon-popup',
       imageSrc: '/salon/1.jpg',
       imageAlt: "Front of men's Basic Tee in black.",
       rating: '4.5',
@@ -15,7 +15,7 @@ const products = [
     },{
       id: 2,
       name: 'Spark Salon & Spa',
-      href: '#',
+      href: '/Saloon-popup',
       imageSrc: '/salon/2.jpg',
       imageAlt: "Front of men's Basic Tee in black.",
       rating: '4.5',
@@ -25,7 +25,7 @@ const products = [
     },{
       id: 3,
       name: 'Green Trends',
-      href: '#',
+      href: '/Saloon-popup',
       imageSrc: '/salon/3.jpeg',
       imageAlt: "Front of men's Basic Tee in black.",
       rating: '4.5',
@@ -35,7 +35,7 @@ const products = [
     },{
       id: 4,
       name: 'COCO UNISEX SALON',
-      href: '#',
+      href: '/Saloon-popup',
       imageSrc: '/salon/4.jpeg',
       imageAlt: "Front of men's Basic Tee in black.",
       rating: '4.5',
@@ -45,7 +45,7 @@ const products = [
     },{
       id: 5,
       name: 'Bella é Bello',
-      href: '#',
+      href: '/Saloon-popup',
       imageSrc: '/salon/5.jpeg',
       imageAlt: "Front of men's Basic Tee in black.",
       rating: '4.5',
@@ -55,7 +55,7 @@ const products = [
     },{
       id: 6,
       name: 'Natchatra Beauty Parlour',
-      href: '#',
+      href: '/Saloon-popup',
       imageSrc: '/salon/6.jpeg',
       imageAlt: "Front of men's Basic Tee in black.",
       rating: '4.5',
@@ -65,7 +65,7 @@ const products = [
     },{
       id: 7,
       name: 'KRISHNA HAIR LINES',
-      href: '#',
+      href: '/Saloon-popup',
       imageSrc: '/salon/7.jpeg',
       imageAlt: "Front of men's Basic Tee in black.",
       rating: '4.5',
@@ -75,7 +75,7 @@ const products = [
     },{
       id: 8,
       name: 'Whitecraft Luxury Salon',
-      href: '#',
+      href: '/Saloon-popup',
       imageSrc: '/salon/8.jpeg',
       imageAlt: "Front of men's Basic Tee in black.",
       rating: '4.5',
@@ -111,7 +111,7 @@ function saloon() {
                   </a>
                 </h3>
                 
-              <p className="flex space-x-2 bg-green-500  rounded-2xl mr-20 min-w-16 max-w-16 "><FaStar color='yellow' className='pt-1 shadow-2xl' /><div>{product.rating} </div></p>                 
+              <p className="flex space-x-2 bg-green-500  rounded-2xl mr-20 min-w-16 max-w-16  text-black font-semibold"><FaStar color='yellow' className='pt-1 shadow-2xl' /><div>{product.rating} </div></p>                 
                 <p className="mt-1 text-sm text-gray-500"><span className='text-blue-500 font-bold'>Open - </span><span className='font-bold'>{product.open}</span> </p>
                 <p className="mt-1 text-sm text-gray-500"><span className='text-red-500 font-bold'>Close - </span><span className='font-bold'>{product.close}</span></p>
               </div>
