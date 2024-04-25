@@ -15,7 +15,8 @@ import Saloon from './saloon/Saloon'
 
 
 import Loginpage from './general/loginpage';
-import Service from './Service p/Service';
+import S1 from './saloon/S1';
+import Allinone from './general/Allinone';
 
 
 
