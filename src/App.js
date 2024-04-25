@@ -8,6 +8,7 @@ import Frontpage from './Grocery/Frontpage';
 // import Dairy from './Grocery/Dairy';
 // import Oils from './Grocery/Oils';
 // import Fruits from './Grocery/Fruits';
+// import R1 from './renting/R1'
 
  
 
@@ -23,6 +24,7 @@ function App() {
       <Fish/>
      <Petproducts/> */}
       <Frontpage/>
+      {/* <R1/> */}
      
   
       
