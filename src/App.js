@@ -1,14 +1,36 @@
 import './App.css';
-import Page1 from './Pages/Page1.js'
-import Loginstaff from './Pages/Loginstaff.js';
-import Loginstudent from './Pages/Loginstudent.js';
-import Attendancepage from './Pages/Attendancepage.js';
-import Staffattendance from './Pages/Staffattendance.js';
+
+
+import Frontpage from './Grocery/Frontpage';
+// import Beverages from './Grocery/Beverages';
+// import Fish from './Grocery/Fish';
+// import Petproducts from './Grocery/Petproducts';
+// import Dairy from './Grocery/Dairy';
+// import Oils from './Grocery/Oils';
+// import Fruits from './Grocery/Fruits';
+
+ 
+
 
 
 function App() {
   return (
     <div>
+      {/* <Fruits/> 
+      <Dairy/>
+      <Oils/>
+      <Beverages/>
+      <Fish/>
+     <Petproducts/> */}
+      <Frontpage/>
+     
+  
+      
+      
+
+     
+      
+
     
     </div>
   );
