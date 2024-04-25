@@ -61,7 +61,10 @@ function Fish(){
     return(
         <div className="bg-white">
         <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-          <h2 className="text-2xl font-bold tracking-tight text-gray-900">Fish and Meat</h2>
+          <h2 className="text-2xl font-bold tracking-tight text-gray-900 text-center">Fish and Meat</h2>
+          <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+          <h2 className="text-5xl font-bold tracking-tight text-gray-900 text-center mt-0"data-aos="fade-down">Meat:Crafted by nature's bounty and honored through the skillful hands of those who respect the journey from field to fork.</h2>
+          <p className='text-center font-light p-10 text-3xl'data-aos="zoom-in">A savory symphony of sustenance </p>
   
           <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
             {products.map((product) => (
@@ -90,6 +93,7 @@ function Fish(){
             ))}
           </div>
         </div>
+      </div>
       </div>
 
 

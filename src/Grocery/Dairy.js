@@ -5,7 +5,7 @@ const products = [
       id: 1,
       name: 'Milk',
       href: '#',
-      price: '₹10',
+      price: '₹35',
       imageSrc:'/Groceryimg/Dairy/milk.jpeg',
       imageAlt: 'Milk',
     },
@@ -13,7 +13,7 @@ const products = [
       id: 2,
       name: 'Cheese',
       href: '#',
-      price: '₹15',
+      price: '₹90',
       imageSrc:'/Groceryimg/Dairy/cheese.jpeg',
       imageAlt: 'cheese',
     },
@@ -21,7 +21,7 @@ const products = [
       id: 3,
       name: 'Butter',
       href: '#',
-      price: '₹20',
+      price: '₹50',
       imageSrc:'/Groceryimg/Dairy/butter.avif',
       imageAlt: 'butter',
     },
@@ -29,7 +29,7 @@ const products = [
       id: 4,
       name: 'Bread',
       href: '#',
-      price: '₹18',
+      price: '₹20',
       imageSrc:'/Groceryimg/Dairy/bread.jpeg',
       imageAlt: 'Bread',
     },
@@ -37,7 +37,7 @@ const products = [
         id: 5,
         name: 'Paneer',
         href: '#',
-        price: '₹18',
+        price: '₹100',
         imageSrc:'/Groceryimg/Dairy/paneer.jpeg',
         imageAlt: 'Paneer',
       },
@@ -45,7 +45,7 @@ const products = [
         id: 6,
         name: 'Fresh cream',
         href: '#',
-        price: '₹25',
+        price: '₹150',
         imageSrc:'/Groceryimg/Dairy/freshcream.jpeg',
         imageAlt: 'Freshcream',
       },
@@ -60,7 +60,11 @@ function Dairy()
     return(
         <div className="bg-white">
         <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-          <h2 className="text-2xl font-bold tracking-tight text-gray-900">Dairy Products</h2>
+          <h2 className="text-2xl font-bold tracking-tight text-gray-900 text-center">Dairy Products</h2>
+          <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+          <h2 className="text-5xl font-bold tracking-tight text-gray-900 text-center mt-0"data-aos="fade-down">Dairy: where every creamy sip tells a story  and the wholesome goodness it brings to our lives.</h2>
+          <p className='text-center font-light p-10 text-3xl'data-aos="zoom-in"> Farm fresh.</p>
+          
   
           <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
             {products.map((product) => (
@@ -89,6 +93,7 @@ function Dairy()
             ))}
           </div>
         </div>
+      </div>
       </div>
 
     )

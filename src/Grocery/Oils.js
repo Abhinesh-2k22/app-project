@@ -61,7 +61,11 @@ function Oils()
       <div >
         <div className="bg-white">
         <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-          <h2 className="text-2xl font-bold tracking-tight text-gray-900">Oils</h2>
+          <h2 className="text-2xl font-bold tracking-tight text-gray-900 text-center">Oils</h2>
+          <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+          <h2 className="text-5xl font-bold tracking-tight text-gray-900 text-center mt-0"data-aos="fade-down">
+"Oil: the liquid gold that unlocks the essence of every ingredient it touches."</h2>
+          <p className='text-center font-light p-10 text-3xl'data-aos="zoom-in"> Transforming ordinary into extraordinary with its subtle alchemy</p>
   
           <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
             {products.map((product) => (
@@ -91,6 +95,7 @@ function Oils()
           </div>
         </div>
       </div>
+    </div>
     </div>
 
     )

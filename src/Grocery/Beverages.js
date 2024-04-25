@@ -6,7 +6,7 @@ const products = [
       id: 1,
       name: '7Up',
       href: '#',
-      price: '₹10',
+      price: '₹40',
       imageSrc:'/Groceryimg/Beverages/7up.jpeg',
       imageAlt: '7Up',
     },
@@ -14,7 +14,7 @@ const products = [
       id: 2,
       name: 'Coke',
       href: '#',
-      price: '₹15',
+      price: '₹40',
       imageSrc:'/Groceryimg/Beverages/coke.webp',
       imageAlt: 'Coke',
     },
@@ -22,7 +22,7 @@ const products = [
       id: 3,
       name: 'Fanta',
       href: '#',
-      price: '₹20',
+      price: '₹35',
       imageSrc:'/Groceryimg/Beverages/fanta.webp',
       imageAlt: 'Fanta',
     },
@@ -30,7 +30,7 @@ const products = [
       id: 4,
       name: 'Pepsi',
       href: '#',
-      price: '₹18',
+      price: '₹40',
       imageSrc:'/Groceryimg/Beverages/pepsi.jpeg',
       imageAlt: 'Pepsi',
     },
@@ -38,7 +38,7 @@ const products = [
         id: 5,
         name: 'Slice',
         href: '#',
-        price: '₹18',
+        price: '₹40',
         imageSrc:'/Groceryimg/Beverages/slice.jpeg',
         imageAlt: 'Slice',
       },
@@ -46,7 +46,7 @@ const products = [
         id: 6,
         name: 'Sprite',
         href: '#',
-        price: '₹25',
+        price: '₹45',
         imageSrc:'/Groceryimg/Beverages/sprite.webp',
         imageAlt: 'Sprite',
       },
@@ -61,7 +61,10 @@ function Beverages(){
     
         <div className="bg-white">
         <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-          <h2 className="text-2xl font-bold tracking-tight text-gray-900">Beverages</h2>
+          <h2 className="text-2xl font-bold tracking-tight text-gray-900 text-center">Beverages</h2>
+          <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+          <h2 className="text-5xl font-bold tracking-tight text-gray-900 text-center mt-0"data-aos="fade-down">Sip joy, taste the moment, and let every drop awaken your senses to the richness of life.</h2>
+          <p className='text-center font-light p-10 text-3xl'data-aos="zoom-in">Sip slowly, taste deeply .</p>
   
           <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
             {products.map((product) => (
@@ -90,6 +93,7 @@ function Beverages(){
             ))}
           </div>
         </div>
+      </div>
       </div>
       )
 }
